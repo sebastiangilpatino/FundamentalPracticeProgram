@@ -1,0 +1,9 @@
+Comparator:
+
+Create a new class ComparatorObjectVariable, import java.util.Comparator;
+implements the interface Comparator<Object>
+override the method compare(Object a1,Object a2);
+and just return the a1.getVariable().compareTo(a2.getSameVariable());
+return the getter of the same variable of the object to organize.
+
+in the method Collections.sort(list, Comparator) // instantiate the class ComparatorObjectVariable.
